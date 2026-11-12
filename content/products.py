@@ -43,7 +43,7 @@ GROUPS = [
         "description": "The operational backbone for finance, people, delivery, content, data and identity.",
         "products": [
             ("FastERP", "ERP & accounting", "Order-to-cash, procure-to-stock, inventory, accounting and AI-assisted operations."),
-            ("FastAccounts", "Bookkeeping", "UK and Estonian bookkeeping for invoices, bills, payments, double-entry ledgers and VAT/KMD workpapers — deliberately not an ERP."),
+            ("FastAccounts", "Bookkeeping", "UK and Estonian bookkeeping with invoicing, bills, payments, double-entry ledgers, VAT and KMD workpapers, plus Estonian payroll with payslips and automatic ledger postings. Deliberately not an ERP."),
             ("FastDPS", "Dynamic procurement", "Create dynamic purchasing systems, continuously qualify suppliers, run call-off competitions and keep every decision auditable."),
             ("FastCLM", "Contract lifecycle management", "Upload, review, approve, sign and manage contract versions, obligations, renewals and notice dates."),
             ("FastLegal", "Legal analysis", "AI-powered legal document analysis for review, extraction and grounded answers over your matter files."),
@@ -115,6 +115,7 @@ PRODUCTS = [
 ]
 
 LIVE_DEMOS = {
+    "FastAccounts": "https://fastaccounts.org",
     "FastFunnel": "https://funnel.fastsme.com",
     "FastClinic": "https://clinic.fastsme.com",
     "FastComps": "https://comps.fastsme.com",
